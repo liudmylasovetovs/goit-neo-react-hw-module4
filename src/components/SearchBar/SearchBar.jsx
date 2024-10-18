@@ -20,8 +20,8 @@ const SearchBar = ({ onSubmit }) => {
   return (
     <header className={styles.header}>
       <form onSubmit={handleSubmit} className={styles.form}>
-        
-        <button type="submit" className={styles.searchButton}><HiOutlineSearch /></button>
+        <div className={styles.searchContainer}>
+        <button type="submit" className={styles.searchButton}><HiOutlineSearch className={styles.searchIcon}/></button>
         <input
           type="text"
           value={input}
@@ -31,6 +31,7 @@ const SearchBar = ({ onSubmit }) => {
           placeholder="Search images and photos"
           className={styles.input}
         />
+        </div>
       </form>
     </header>
   );
