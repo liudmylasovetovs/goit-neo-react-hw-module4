@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { useState, useRef } from "react";
 import SearchBar from "./components/SearchBar/SearchBar.jsx";
 import ImageGallery from "./components/ImageGallery/ImageGallery.jsx";
@@ -10,7 +9,7 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import "./App.css";
 
-const ACCESS_KEY = "N8QqkmknDcY0xI33MHYLRJvTmOtk349xkKH43YKJFzw";
+const ACCESS_KEY = "okvU2JX-mab2dY0O_zTAk4_cSMWvVAV5uCW26wBUqsQ";
 
 const App = () => {
   const [images, setImages] = useState([]);
